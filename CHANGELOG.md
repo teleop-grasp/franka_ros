@@ -2,6 +2,7 @@
 
 ## 0.x - UNRELEASED
 
+* Fix: `gripper_action` goes now to the commanded gripper position when `max_effort` is zero 
 * Fix: Allow interactive marker server to shut down if not initialized
 * Add realistic hand/finger collision geometries to the Gazebo robot description
 * Add `joint_state_desired` publisher to `franka_gazebo`
